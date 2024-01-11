@@ -7,60 +7,59 @@ weight: 5
 This section describes the decision-making process, voting, and elections for the CF.
 
 - [General Decision Making](#general-decision-making)
-  - [Seeking consensus in meetings](#seeking-consensus-in-meetings)
-  - [Seeking consensus on mailing lists](#seeking-consensus-on-mailing-lists)
+  - [Expectations for Consensus Decision Making](#expectations-for-consensus-decision-making)
+- [Proposal Development and Review Process](#proposal-development-and-review-process)
+  - [Reviews](#reviews)
 - [Elections](#elections)
 
 ## General Decision Making
 
-True to Open Source roots, the CF ensures every member's voice is heard through the Lazy Consensus decision-making model.
+The CF adopts the Lazy Consensus model, as defined by the [Apache Foundation](https://community.apache.org/committers/decisionMaking.html), combined with [Martha's Rules](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1825&context=sociologyfacpub) adapted for our context. This hybrid approach ensures inclusivity and efficiency in decision-making across time zones.
 
-To quote the [Consensus definition][] from the Apache Foundation:
+### Expectations for Consensus Decision Making
 
-> Consensus
->
-> The word “consensus” is a bit ambiguous in English, and so can lead to some misunderstandings of intent when we use it in the context of project decisions. Consensus does not mean that everyone agrees on all details. Rather, it means that the project, as a whole, has arrived a decision, or at least a compromise, that everyone can live with.
->
-> Lazy Consensus
->
-> Lazy consensus is the first, and possibly the most important, consensus-building tool we have. Essentially lazy consensus means that you don’t need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
+Consensus is about finding a workable compromise:
+- Dissent should be voiced early for constructive discussion.
+- Every member, irrespective of role, is entitled to an equal voice and vote.
 
-When seeking consensus, members should express objections or dissent as early as possible to ensure there is time to discuss and address objections.
+## Proposal Development and Review Process
 
-Every member, regardless of their role or contribution level, has an equal voice and is entitled to one vote in all decisions.
+Proposals begin as GitHub Discussions to encourage collaborative refinement.
 
-[Consensus definition]: https://community.apache.org/committers/decisionMaking.html
+### Reviews
 
-### Seeking consensus in meetings
+For a proposal ready for review:
 
-When an agenda item has appeared to reach a consensus the moderator will ask "Does anyone object?" as a final call for dissent from the consensus.
+1. **Review Discussion Creation:**
+   - Transition from the initial discussion to a Review discussion, outlining the proposal in detail.
 
-If an agenda item cannot reach a consensus a CFC member can call for either a closing vote or a vote to table the issue to the next meeting.
-The call for a vote must be seconded by a majority of the CFC or else the discussion will continue.
+2. **Sense Vote:**
+   - Community feedback is gauged through reactions (👍, 👀, 👎). For nuanced feedback, a scale like 🚀 😄 👀 😕 👎 may be used.
 
-For all votes, a simple majority of all Voting CFC members for, or against, the issue wins.
-A Voting CFC member may choose to participate in any vote through abstention.
+3. **Determination Steps:**
+   - **Broad Support:** Move to the next stage ([final vote if needed](#proposals-requiring-a-vote)) if most are in favor or neutral.
+   - **Broad Discomfort:** Rework by the sponsor if there are significant objections.
+   - **Mixed Responses:** Sponsor addresses concerns; unresolved issues lead to a meeting.
 
-### Seeking consensus on mailing lists
+#### Handling Unresolved Issues
 
-When seeking consensus in mailing lists, it is important to leave enough time (at least 72-hours) for everyone to read the email and respond with opinions and objections.
+If asynchronous consensus is not reached:
 
-CFC members should consider the following when drafting consensus-seeking email:
+- Schedule a meeting to discuss further, ensuring all relevant parties can attend.
+- The sponsor and objectors present their views.
+- Facilitate a structured 10-minute discussion on objections.
+- Conclude with a vote: "Should we proceed despite objections if the majority feels the proposal is workable?"
+- A majority 'yes' implements the decision; a 'no' requires rework.
 
-- Use a leading indicator (`[DISCUSS]` or an emoji like 🗳️) to mark consensus-seeking email
-- Use a clear subject line that summarizes the topic
-- If there is a time constraint to the decision, include it in the subject.
+Record occurrence and outcome of the meeting in the Discussion.
 
-It is customary for the initiator to post a summary once it appears that consensus has been reached, to ensure that their understanding is accurate.
+#### Proposals Requiring a Vote
+
+- Proposals related to matters requiring a [CF Council Supermajority Vote](3-cf-council.md#matters-requiring-supermajority-vote).
 
 ## Elections
 
-For CFC elections, CF adopts a preference-based voting system facilitated by [Elekto][e1].
-This approach allows members to rank candidates in order of preference, ensuring the elected representatives are the most broadly supported by the community, rather than simply the most popular.
+CF uses a preference-based voting system through [Elekto](https://elekto.dev/docs/), allowing for ranked-choice voting.
 
-- [Voting using Elekto][e2]
-- [Administering an Election using Elekto][e3]
-
-[e1]: https://elekto.dev/docs/
-[e2]: https://elekto.dev/docs/voting/
-[e3]: https://elekto.dev/docs/administration/
+- [Voting Process](https://elekto.dev/docs/voting/)
+- [Election Administration](https://elekto.dev/docs/administration/)

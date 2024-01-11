@@ -99,20 +99,18 @@ Efficient participation and decision-making are essential for geographically dis
 
 ### Decision-Making Process
 
-- **Consensus-Based Approach:** The CFC strives to make decisions based on consensus, adhering to the Lazy Consensus model outlined in [General Decision Making][consensus]. This approach emphasizes collective agreement and accommodates diverse viewpoints.
-- **Voting as a Last Resort:** If a consensus cannot be reached, the CFC resorts to voting. Decisions are then made by a simple majority of the voting CFC members present unless a supermajority is required.
-- **Supermajority Requirement:** Certain critical decisions require a supermajority vote. A supermajority is defined as at least two-thirds of the total number of CFC members.
+- **Consensus-Based Approach**: Adhering to the [Lazy Consensus model](./5-decision-making.md#general-decision-making), the CFC emphasizes collective agreement and diverse viewpoints.
+- **Resolving Unresolved Issues**: For issues without asynchronous consensus, we follow [these procedures](./5-decision-making.md#scheduling-meetings-for-unresolved-issues), including meeting scheduling and final voting.
 
 ### Matters Requiring Supermajority Vote
 
-The following matters must be approved by a supermajority vote of the CFC:
-
-- Amending the Bylaws or Articles of Incorporation.
-- Approving mergers, consolidations, or dissolution of the Foundation.
-- Changing the size or eligibility requirements of the CFC.
-- Major changes to the Foundation's structure or operations.
-- Suspending or revoking membership for an individual or project.
-- Any changes to the definition or rights of membership.
+Supermajority votes of the CFC are required for:
+- Amending Bylaws or Articles of Incorporation.
+- Approving mergers, consolidations, or dissolution.
+- Changing CFC size or eligibility requirements.
+- Major structural or operational changes.
+- Suspending/revoking individual or project memberships.
+- Altering membership definitions or rights.
 - Other significant decisions as determined by the CFC.
 
 ## Committees and Delegation
